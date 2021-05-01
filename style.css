@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  line-height: 1.5;
+  padding: 20px;
+  font-size: 62.5;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #f1e4e8;
+}
+nav {
+  margin-bottom: 10px;
+}
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  justify-content: center;
+  text-align: center;
+}
+#carouselCaptions img {
+  height: 500px;
+}
+
+#carouselCaptions p,
+#carouselCaptions h5 {
+  background-color: none;
+}
+#carouselWrapper {
+  background-color: white;
+  padding: 10px;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  text-decoration: underline;
+}
+#cardContainer img {
+  height: 500px;
+}
