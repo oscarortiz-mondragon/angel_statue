@@ -39,3 +39,36 @@ h2 {
 #cardContainer img {
   height: 500px;
 }
+main {
+  background: url(./images/angel_statue_hand.jpg) no-repeat fixed center;
+  padding: 25%;
+  border: white solid 10px;
+  margin-bottom: 10px;
+  background-size: cover;
+}
+main div {
+  justify-self: center;
+  text-align: center;
+  align-items: center;
+  color: white;
+  background-color: rgba(212, 144, 218, 0.6);
+}
+
+.card:hover {
+  box-shadow: 5px 5px;
+  opacity: 0.5;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-self: center;
+}
+input {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  margin: 20px;
+}
