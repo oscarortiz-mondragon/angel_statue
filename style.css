@@ -130,23 +130,20 @@ input {
   text-align: center;
   font-size: 2rem;
 }
-/* .col .minus {
-  z-index: -2;
-  opacity: 0;
-  position: absolute;
-  top: 80%;
-  height: 100%;
-  width: 100%;
-  color: black;
-  align-items: center;
-  text-align: center;
-  font-size: 2rem;
-  transform: translateY(-30rem);
-} */
+
 .cartContainer {
   display: grid;
   position: absolute;
   transform: translateY(300%);
   width: 100%;
   height: 10%;
+}
+@media screen and (max-width: 800px) {
+  main {
+    background: url(./images/angel_statue_hand.jpg) no-repeat center;
+    height: auto;
+    border: white solid 10px;
+    margin-bottom: 10px;
+    background-size: cover;
+  }
 }
